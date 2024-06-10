@@ -3,8 +3,12 @@
 Wtyczka służy do obliczania przewyższenia i pola powierzchni.
 
 #Spis treści
-...
-costam
+
+* [Funkcje wtyczki](#funkcje-wtyczki)
+* [Ogólny sposób użycia wtyczki](#ogólny-sposób-użycia-wtyczki)
+* [Obliczanie przewyższenia](#obliczanie-przewyższenia)
+* [Obliczanie pola powierzchni](#obliczanie-pola-powierzchni)
+* [Znane błędy](#znane-błędy)
 
 #### Wymagania
 ```
