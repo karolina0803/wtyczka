@@ -14,7 +14,6 @@ System operacyjny Windows 10 lub 11
 program QGIS wersja 3.34.4
 biblioteka qgis.PyQt
 biblioteka qgis.core
-biblioteka qgis.utils
 ```
 #### Funkcje wtyczki
  ```
