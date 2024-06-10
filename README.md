@@ -17,4 +17,8 @@ biblioteka qgis.PyQt
 biblioteka qgis.core
 biblioteka qgis.utils
 ```
-
+#### Funkcje wtyczki
+ ```
+ 1. Obliczanie przewyższenia pomiędzy dwoma punktami
+ 2. Obliczanie pola powierzchni pomiędzy punktami
+ ```
