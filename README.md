@@ -28,12 +28,17 @@ Po lewej stronie od jej nazwy pojawi się checkbox, który należy zaznaczyć.
 2. Do nowego projektu należy dodać warstwy warstwy z atrybutami geometrii (SHP lub SHX).
 3. Należy zaznaczyć wybrane punkty za pomocą narzędzia "Zaznacz obiekty" i uruchomić wtyczkę. (Warstwa z wybranymi punktami musi być aktywna i jednocześnie wybrana w oknie dialogowym wtyczki)
 
-#### Liczenie przewyższenia
+#### Obliczanie przewyższenia
 
 W celu obliczenia przewyższenia należy zaznaczyć dokładnie dwa punkty, których elementy posiadają atrybut "wysokość", uruchomić wtyczkę, wybrać warstwę, na której znajdują się punkty 
-i kliknąć przycisk "oblicz przewyższenie". W oknie wtyczki wyświetlą się numery zaznaczonych punktów oraz policzone przewyższenie między nimi. UWAGA: występują błędy. Patrz: sekcja ## Znane błędy
+i kliknąć przycisk "oblicz przewyższenie". W oknie wtyczki wyświetlą się numery zaznaczonych punktów oraz policzone przewyższenie między nimi. UWAGA: występują błędy. Patrz: sekcja Znane błędy.
+Wynik otrzymujemy z dokładnością 0.001m
 
 
+#### Obliczanie pola powierzchni
+
+W celu obliczenia pola powierzchni należy zaznaczyć na jednej aktywnej warstwie przynajmniej 3 punkty, a następnie uruchomić wtyczkę poprzez kliknięcie przycisku "oblicz pole powierzchni" 
+i wybrać sposób wyświetlania wyniku. Każdy wynik otrzymujemy z dokładnością do 3 miejsc po przecinku.
 
 
 #### Znane błędy
