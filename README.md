@@ -25,8 +25,11 @@ biblioteka PyQt5
 
 1. Na samym początku należy pobrać wtyczkę i umieścić ją w katalogu z wtyczkami dla programu QGIS. Następnie należy otworzyć program QGIS, przejść do zakładki Wtyczki>Zarządzanie wtyczkami i na samej górze w pasku wyszukiwania wpisać "Wtyczka". 
 Po lewej stronie od jej nazwy pojawi się checkbox, który należy zaznaczyć.
-2. Do nowego projektu należy dodać warstwy warstwy z atrybutami geometrii (SHP lub SHX).
-3. Należy zaznaczyć wybrane punkty za pomocą narzędzia "Zaznacz obiekty" i uruchomić wtyczkę. (Warstwa z wybranymi punktami musi być aktywna i jednocześnie wybrana w oknie dialogowym wtyczki)
+2. Do nowego projektu należy dodać warstwy z atrybutami geometrii (SHP lub SHX).
+3. Aby włączyć ID punktów należy kliknąć prawym przyciskiem myszy na warstwę, wejść we właściwości>etykiety>rozwinąć pasek na samej górze okna i wybrać proste etykiety>w pasku niżej wybrać wartość 'id'
+4. Należy zaznaczyć wybrane punkty za pomocą narzędzia "Zaznacz obiekty" i uruchomić wtyczkę. (Warstwa z wybranymi punktami musi być aktywna i jednocześnie wybrana w oknie dialogowym wtyczki)
+5. Aby wykonać kolejną operację z użyciem wtyczki należy kliknąć Wyczyść lub Zamknij. Wyczyść - czyści zaznaczenie punktów i dane z okna wtyczki, Zamknij - czyści dane i zamyka okno. 
+Zalecane jest czyszczenie za każdym razem przed użyciem.
 
 #### Obliczanie przewyższenia
 
@@ -37,11 +40,13 @@ Wynik otrzymujemy z dokładnością 0.001m
 
 #### Obliczanie pola powierzchni
 
-W celu obliczenia pola powierzchni należy zaznaczyć na jednej aktywnej warstwie przynajmniej 3 punkty, a następnie uruchomić wtyczkę poprzez kliknięcie przycisku "oblicz pole powierzchni" 
-i wybrać sposób wyświetlania wyniku. Każdy wynik otrzymujemy z dokładnością do 3 miejsc po przecinku.
+W celu obliczenia pola powierzchni należy zaznaczyć na jednej aktywnej warstwie przynajmniej 3 punkty, a następnie uruchomić wtyczkę, kliknąć przycisk "oblicz pole powierzchni" 
+i wybrać sposób wyświetlania wyniku (metry kwadratowe, ary, hektary). Każdy wynik otrzymujemy z dokładnością do 3 miejsc po przecinku. Funkcja działa niezależnie od nazw atrybutów dla co najmniej
+3 wybranych punktów. W oknie wtyczki wyświetlą się wybrane punkty o rosnących numerach ID.
 
 
 #### Znane błędy
 
-1. Przy obliczaniu przewyższenia wynik podawany jest tylko w jedną stronę nieależnie od kolejności wybrania punktów. Przykładowo jeśli jeden punkt ma numer 4, a drugi numer 5, to przewyższenie
-będzie liczone w kierunku 4->5 (zgodnie z rosnącym numerem punktu). Nie jest możliwa operacja odwrotna.
+1. Przy obliczaniu przewyższenia wynik podawany jest tylko w jedną stronę nieależnie od kolejności wybrania punktów. Przykładowo jeśli jeden punkt ma ID = 4, a drugi ID = 5, to przewyższenie
+będzie liczone w kierunku 4->5 (zgodnie z rosnącym ID punktu). Nie jest możliwa operacja odwrotna.
+2. Numery ID punktów 
