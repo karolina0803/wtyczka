@@ -31,7 +31,7 @@ Po lewej stronie od jej nazwy pojawi się checkbox, który należy zaznaczyć.
 #### Liczenie przewyższenia
 
 W celu obliczenia przewyższenia należy zaznaczyć dokładnie dwa punkty, których elementy posiadają atrybut "wysokość", uruchomić wtyczkę, wybrać warstwę, na której znajdują się punkty 
-i kliknąć przycisk "oblicz przewyższenie". W oknie wtyczki wyświetlą się numery zaznaczonych punktów oraz policzone przewyższenie między nimi. UWAGA: występują błędy. Patrz: sekcja # Znane błędy
+i kliknąć przycisk "oblicz przewyższenie". W oknie wtyczki wyświetlą się numery zaznaczonych punktów oraz policzone przewyższenie między nimi. UWAGA: występują błędy. Patrz: sekcja ## Znane błędy
 
 
 
