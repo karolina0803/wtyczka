@@ -21,11 +21,22 @@ biblioteka PyQt5
  1. Obliczanie przewyższenia pomiędzy dwoma punktami
  2. Obliczanie pola powierzchni pomiędzy punktami
  ```
-#### Sposób użycia wtyczki
+#### Ogólny sposób użycia wtyczki
 
 1. Na samym początku należy pobrać wtyczkę i umieścić ją w katalogu z wtyczkami dla programu QGIS. Następnie należy otworzyć program QGIS, przejść do zakładki Wtyczki>Zarządzanie wtyczkami i na samej górze w pasku wyszukiwania wpisać "Wtyczka". 
 Po lewej stronie od jej nazwy pojawi się checkbox, który należy zaznaczyć.
 2. Do nowego projektu należy dodać warstwy warstwy z atrybutami geometrii (SHP lub SHX).
-3. Należy zaznaczyć wybrane punkty za pomocą narzędzia "Zaznacz obiekty" i uruchomić wtyczkę. (Warstwa z wybranymi punktami musi być aktywna)
+3. Należy zaznaczyć wybrane punkty za pomocą narzędzia "Zaznacz obiekty" i uruchomić wtyczkę. (Warstwa z wybranymi punktami musi być aktywna i jednocześnie wybrana w oknie dialogowym wtyczki)
 
-###Liczenie przewyższenia
+#### Liczenie przewyższenia
+
+W celu obliczenia przewyższenia należy zaznaczyć dokładnie dwa punkty, których elementy posiadają atrybut "wysokość", uruchomić wtyczkę, wybrać warstwę, na której znajdują się punkty 
+i kliknąć przycisk "oblicz przewyższenie". W oknie wtyczki wyświetlą się numery zaznaczonych punktów oraz policzone przewyższenie między nimi. UWAGA: występują błędy. Patrz: sekcja # Znane błędy
+
+
+
+
+#### Znane błędy
+
+1. Przy obliczaniu przewyższenia wynik podawany jest tylko w jedną stronę nieależnie od kolejności wybrania punktów. Przykładowo jeśli jeden punkt ma numer 4, a drugi numer 5, to przewyższenie
+będzie liczone w kierunku 4->5 (zgodnie z rosnącym numerem punktu). Nie jest możliwa operacja odwrotna.
