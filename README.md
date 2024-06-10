@@ -2,7 +2,7 @@
 
 Wtyczka służy do obliczania przewyższenia i pola powierzchni.
 
-#Spis treści
+## Spis treści
 
 * [Funkcje wtyczki](#funkcje-wtyczki)
 * [Ogólny sposób użycia wtyczki](#ogólny-sposób-użycia-wtyczki)
