@@ -27,7 +27,7 @@ biblioteka PyQt5
 Po lewej stronie od jej nazwy pojawi się checkbox, który należy zaznaczyć.
 2. Do nowego projektu należy dodać warstwy z atrybutami geometrii (SHP lub SHX).
 3. Aby włączyć ID punktów należy kliknąć prawym przyciskiem myszy na warstwę, wejść we właściwości>etykiety>rozwinąć pasek na samej górze okna i wybrać proste etykiety>w pasku niżej wybrać wartość 'id'
-4. Należy zaznaczyć wybrane punkty za pomocą narzędzia "Zaznacz obiekty" i uruchomić wtyczkę. (Warstwa z wybranymi punktami musi być aktywna i jednocześnie wybrana w oknie dialogowym wtyczki)
+4. Należy zaznaczyć wybrane punkty za pomocą narzędzia "Zaznacz obiekty" i uruchomić wtyczkę. (Warstwa z wybranymi punktami musi być aktywna i jednocześnie wybrana w oknie wtyczki)
 5. Aby wykonać kolejną operację z użyciem wtyczki należy kliknąć Wyczyść lub Zamknij. Wyczyść - czyści zaznaczenie punktów i dane z okna wtyczki, Zamknij - czyści dane i zamyka okno. 
 Zalecane jest czyszczenie za każdym razem przed użyciem.
 
@@ -49,4 +49,3 @@ i wybrać sposób wyświetlania wyniku (metry kwadratowe, ary, hektary). Każdy 
 
 1. Przy obliczaniu przewyższenia wynik podawany jest tylko w jedną stronę nieależnie od kolejności wybrania punktów. Przykładowo jeśli jeden punkt ma ID = 4, a drugi ID = 5, to przewyższenie
 będzie liczone w kierunku 4->5 (zgodnie z rosnącym ID punktu). Nie jest możliwa operacja odwrotna.
-2. Numery ID punktów 
